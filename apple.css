@@ -1,0 +1,240 @@
+.flex-container{
+    margin: 0;
+    background-color: rgb(18, 15, 15);
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+     justify-content:space-between;
+     z-index: 1;
+}
+body{
+    background-color: black;
+}
+.flex-box{
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right:20px;
+    font-size: medium;
+    color: rgb(245, 243, 243);
+}
+  /* .flex-box{
+    width: 100%;
+    box-sizing: border-box; 
+    z-index: 2;
+}  */
+button{
+    background-color: rgb(5, 5, 5);
+}
+.search{
+    background-color: white;
+}
+.name{
+    position: absolute;
+    top: 19px;
+    left:439px;
+}
+.flex-box{
+    margin: 0 -8px;
+    width: auto;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+} 
+.nav-bar {
+    width: 100%;
+    background-color:rgb(14, 14, 14);
+    overflow: auto;
+  }
+
+  .nav-bar {
+    overflow: hidden;
+    background-color:rgb(10, 10, 10);
+    position: fixed;
+    top: 0;
+    width: 100%;
+   
+  }
+.nav-bar:hover{
+    background: black;
+    color: black;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+/* .box11{
+    float: left;
+    margin-right:50;
+    padding: 12px;
+    color: white;
+    background-color: white;
+    height: 10;
+    width: 10;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.box11{:hover 
+
+  } */
+  /* .search{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 1;
+    width: 1;
+  } */
+  @media screen and (max-width: 500px) {
+    .box11 {
+      float: none;
+      display: block;
+    }
+}
+.iphone{
+    position: relative;
+    text-align: center;
+    /* margin-top: 2;
+    padding: 20; */
+    /* border: 3px solid red ; */
+}
+.name-1{
+    position: absolute;
+    top:-44px;
+    left:439px;
+
+}
+.i15{
+  /* position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  /* text-align: center; */
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 51.625px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /* 116.223% */
+  letter-spacing:-0.28px;
+  position: relative;
+}
+.titan{ 
+    /* position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    text-align: center;
+    font-family: Inter;
+    font-size: 24.391px;
+    font-style: normal;
+    font-weight: 400;
+}
+.iph15{
+    /* position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 51.625px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 116.223% */
+    letter-spacing:-0.28px;
+    position: relative;
+}
+.new{
+    /* position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; */
+    text-align: center;
+    font-family: Inter;
+    font-size: 24.391px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.sub{
+    position: relative;
+    width: 100%;
+    height:650px;
+    /* border: 3px solid red;0p */
+}
+
+
+.watch-ultra{
+  position: absolute;
+  margin-top: 2;
+  margin-right: 5;
+  padding: 5px;
+  left: 0;
+  width: 50%;
+  height: 650px;
+  /* border: 3px solid blue; */
+}
+.watch-9{
+position: absolute;
+margin-top: 2;
+margin-left: 5;
+padding: 5px;
+right: 0;  
+width: 50%;
+height: 650px;
+/* border: 3px solid green; */
+}
+.sub2{
+    position: relative;
+    width: 100%;
+    height:650px;
+}
+.mac-15{
+    position: absolute;
+    margin-top: 15;
+    margin-right :5;
+    padding: 5px;
+    left: 0;
+    width: 50%;
+    height: 650px;   
+}
+.ipad-pro{
+    position: absolute;
+    margin-top:15;
+    margin-left:5;
+    padding: 5px;
+    right: 0;  
+    width: 50%;
+    height: 650px;
+}
+.sub3{
+    position: relative;
+    width: 100%;
+    height:650px;
+    /* border: 3px solid rgb(229, 100, 8); */
+}
+.trade{
+    position: absolute;
+    margin-left: 0;
+    /* margin-top: 15;
+    margin-right: 5;
+    padding: 5px; */
+    left: 0;
+    width: 50%;
+    height: 650px; 
+    /* border: 3px solid rgb(216, 19, 19); */
+}
+.airpod{
+    position: absolute;
+    /* margin-top:15;
+    margin-left: 5;
+    padding: 5px; */
+    right: 0;  
+    width: 100%;
+    height: 650px;
+    /* border: 3px solid blue; */
+    margin-right:-752px;
+    margin-top:-620px;
+}
